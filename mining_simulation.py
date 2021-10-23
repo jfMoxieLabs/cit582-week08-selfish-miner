@@ -34,6 +34,7 @@ def Simulate(alpha,gamma,N, seed):
         elif state==1:
             #The selfish pool has 1 hidden block.
             if r<=alpha:
+                print(0)
                 #The selfish miners found a new block.
                 #Write a piece of code to change the required variables.
                 #You might need to define new variable to keep track of the number of hidden blocks.
